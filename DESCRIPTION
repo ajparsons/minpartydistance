@@ -1,7 +1,18 @@
-Package: 
-    RTemplate
-
+Package: minPartyDistance
+Version: 0.1.0
+Title: Minimum Party Distance Analysis
+Description: R package for analyzing minimum party distances.
+Author: Alex Parsons
+Maintainer: Alex Parsons <alex@alexparsons.co.uk>
+License: MIT
+Encoding: UTF-8
 Imports:
-    tictoc,
-    rextendr,
-    matrixStats
+    rextendr
+Config/rextendr/version: 0.4.1
+SystemRequirements: Cargo (Rust's package manager), rustc
+Depends: 
+    R (>= 4.2)
+Suggests:
+    matrixStats,
+    tictoc
+RoxygenNote: 7.3.2

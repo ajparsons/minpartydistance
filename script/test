@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Run R script tests/benchmark.R
+Rscript tests/benchmark.R

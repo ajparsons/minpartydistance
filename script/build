@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Install devtools if not already installed
+Rscript -e "rextendr::document()"
+R CMD INSTALL .
